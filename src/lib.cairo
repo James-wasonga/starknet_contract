@@ -83,7 +83,7 @@ mod HelloStarknet {
 
         //circle calculation 
         fn circle_area(ref self: ContractState, radius: u64){
-            
+            assert(radius !='', 'radius cannot be empty');
             self.radius.write(radius);
         }  
 
