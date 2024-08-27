@@ -99,4 +99,3 @@ mod HelloStarknet {
 }
 
 
-//0x3677ca041c98ade5fb6b36a0bf9c733768d14e8767f70addd838fbe8e6dcdcf
